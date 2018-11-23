@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+    // "lib": [],
+    // "allowJs": true,
+    // "checkJs": true,
+    // "declaration": true,
+    // "declarationMap": true,
+    // "outFile": "./",
+    // "outDir": "./",
+    // "rootDir": "./",
+    // "composite": true,
+    // "removeComments": true,
+    // "noEmit": true,
+    // "importHelpers": true,
+    // "downlevelIteration": true,
+    // "isolatedModules": true,
+    // "noImplicitAny": true,
+    // "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictPropertyInitialization": true,
+    // "noImplicitThis": true,
+    // "alwaysStrict": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noImplicitReturns": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "rootDirs": [],
+    // "typeRoots": [],
+    // "types": [],
+    // "preserveSymlinks": true,
+    // "sourceRoot": "",
+    // "mapRoot": "",
+    // "inlineSourceMap": true,
+    // "inlineSources": true,
+  },
+  "include": [
+    "./typings/*",
+    "./src/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
